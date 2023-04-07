@@ -1,0 +1,15 @@
+@import "./palette.scss";
+
+$primary-color: rgb(19, 94, 95);
+$secondary-color:  hsla(134, 75%, 72%, 1);
+$text-color: rgb(255, 255, 255);
+
+body {
+    background-color: $primary-color;
+    color: $text-color;
+}
+
+.button {
+    background-color: $secondary-color;
+    color: $text-color;
+}
