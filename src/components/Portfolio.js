@@ -22,7 +22,7 @@ function Portfolio() {
         <br />
         <div className="project-container">
           <div className="project-item">
-            <a href="https://github.com/project-1">
+            <a href="https://github.com/cameragrammar/Group-Project-1">
               <img
                 src={NBAPlayerTrackerImage}
                 alt="Project 1"
@@ -37,7 +37,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="project-item">
-            <a href="https://github.com/project-2">
+            <a href="https://github.com/cameragrammar/weather-dashboard">
               <img
                 src={WeatherDashboardImage}
                 alt="Project 2"
@@ -52,7 +52,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="project-item">
-            <a href="https://github.com/project-3">
+            <a href="https://github.com/cameragrammar/Note-Taker-App">
               <img
                 src={NoteTakerImage}
                 alt="Project 3"
