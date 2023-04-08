@@ -117,7 +117,7 @@ h3 {
 }
 
 nav ul li a {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Chakra Petch';
   font-size: 40px;
   color: #caa8a8;
   text-decoration: none;
@@ -125,6 +125,8 @@ nav ul li a {
   text-shadow: #cfcfcf;
   outline: #919090;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Chakra+Petch&family=Righteous&display=swap');
 
 nav ul li a:hover {
   color: #f0d7d7;
