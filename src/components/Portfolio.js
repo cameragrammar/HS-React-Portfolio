@@ -5,7 +5,7 @@ import NoteTakerImage from "../components/NoteTaker.JPG";
 
 function Portfolio() {
   return (
-    <div className="container">
+    <div className="main-container">
       <div className="white-box">
         <div
           className="intro-info"
@@ -21,7 +21,7 @@ function Portfolio() {
         </div>
         <br />
         <div className="project-container">
-          <div className="project-item">
+          <div className="project-item project-box">
             <a href="https://github.com/cameragrammar/Group-Project-1">
               <img
                 src={NBAPlayerTrackerImage}
@@ -36,7 +36,7 @@ function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="project-item">
+          <div className="project-item project-box">
             <a href="https://github.com/cameragrammar/weather-dashboard">
               <img
                 src={WeatherDashboardImage}
@@ -51,7 +51,7 @@ function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="project-item">
+          <div className="project-item project-box">
             <a href="https://github.com/cameragrammar/Note-Taker-App">
               <img
                 src={NoteTakerImage}
