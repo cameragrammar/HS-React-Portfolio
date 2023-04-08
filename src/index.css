@@ -117,8 +117,8 @@ h3 {
 }
 
 nav ul li a {
-  font-family:'Chakra Petch';
-  font-size: 40px;
+  font-family:'Kalam';
+  font-size: 30px;
   color: #caa8a8;
   text-decoration: none;
   padding: 20px;
@@ -126,7 +126,7 @@ nav ul li a {
   outline: #919090;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Chakra+Petch&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Caveat&family=Chakra+Petch&family=Kalam:wght@700&family=Righteous&display=swap');
 
 nav ul li a:hover {
   color: #f0d7d7;
