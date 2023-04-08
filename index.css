@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  padding-top: calc(20px);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  color: yellow;
+  font-size: 25px;
+  -webkit-text-stroke: 2px green;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px auto;
+  text-align: center;
+  -webkit-text-stroke: 2px green;
+}
+
+nav {
+  text-align: center;
+  color:aliceblue
+}
+
+nav ul li a:visited {
+  color: inherit;
+  -webkit-text-stroke: 2px green;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+}
+
+.mastersnav {
+  display: inline-block;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --lapis-lazuli: #22577aff;
+}
+
+.my-element {
+  color: var(--lapis-lazuli);
+}  
+
+.background-image {
+  background-image: url(./augusta.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: #ffffff00;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+  font-size: large;
+  font-style: normal;
+  text-align: center;
+}
+
+
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+}
+
+h3 {
+  font-size: 30px;
+  color: black;
+}
+
+.intro-info {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  ;
+}
+
+nav ul li a {
+  font-family:'Chakra Petch';
+  font-size: 40px;
+  color: #caa8a8;
+  text-decoration: none;
+  padding: 20px;
+  text-shadow: #cfcfcf;
+  outline: #919090;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Chakra+Petch&family=Righteous&display=swap');
+
+nav ul li a:hover {
+  color: #f0d7d7;
+}
+
+nav ul li a:active {
+  color: #666;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.white-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: calc(100px + 50px + 20px);
+  margin-bottom: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .white-box {
+    margin-top: 50px;
+  }
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.icon {
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+button {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.portfolio-header {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.project-container {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: black;
+}
+
+.project-item {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.project-text {
+  color: black;
+  font-size: 20px;
+}
+
+a:visited {
+  color: black;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .main-container {
+    max-width: none;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .white-box {
+    margin-top: 300px;
+  }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
